@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Archivos de entorno o configuración
+.env
+*.env
+
+# Archivos de logs
+*.log
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Capturas de handshakes
+captures/
+*.cap
+*.pcap
+*.pcapng
+
+# Wordlists grandes
+wordlists/*.txt
+
+# Entornos virtuales
+venv/
+.env/
+
+# Otros
+*.sqlite3
+*.db
