@@ -42,3 +42,6 @@ venv/
 # Otros
 *.sqlite3
 *.db
+
+# Ignorar la lista de palabras grande
+wordlist/rockyou.txt
