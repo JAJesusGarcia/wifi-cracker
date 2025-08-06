@@ -24,6 +24,6 @@ def run_dictionary_attack(wordlist_path, ssid, handshake_mic):
 
 if __name__ == "__main__":
     wordlist_path = "wordlist/rockyou.txt"  # Reemplaza con la ruta a tu wordlist
-    ssid = "NombreDeMiRed"  # Reemplaza con el ESSID de la red
+    ssid = "iPhone de Jesus"  # Reemplaza con el ESSID de la red
     handshake_mic = "mic_del_handshake"  # Simulamos el MIC del handshake
     run_dictionary_attack(wordlist_path, ssid, handshake_mic)

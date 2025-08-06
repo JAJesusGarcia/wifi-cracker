@@ -13,3 +13,4 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 COPY . /app
+RUN ls -l /app/wordlist # Añadimos este comando para listar el contenido de la carpeta
